@@ -1,0 +1,11 @@
+alias gp="git push origin HEAD"
+alias dev="cd ~/Developer"
+
+function all {
+  if [[ -z $1 ]] 
+    then
+  	cd ~/Documents/all
+  else
+	cd "$(find ~/Documents/all -name $1\* -type d)"  
+  fi
+}

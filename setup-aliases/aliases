@@ -1,3 +1,0 @@
-alias gp="git push origin HEAD"
-alias dev="cd ~/Developer"
-alias all="cd ~/Documents/all"
